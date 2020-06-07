@@ -60,7 +60,16 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.heroku.sdk</groupId>
+				<artifactId>heroku-maven-plugin</artifactId>
+				<version>0.5.1</version>
+				<configuration>
+					<appName>cata-4</appName>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
+	
 
 </project>
